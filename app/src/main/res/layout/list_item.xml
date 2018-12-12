@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="#D3F0E2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="#D3F0E2"
+            android:padding="14dp">
+
+            <TextView
+                android:id="@+id/idSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="5sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvUrl"
+                android:layout_width="149dp"
+                android:layout_height="86dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/thumbnail"
+                android:autoLink="web"
+                android:padding="8dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="wrap_content"
+                android:layout_height="88dp"
+                android:src="@drawable/ic_launcher_background" />
+
+            <ImageButton
+                android:id="@+id/btnDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/tvUrl"
+                android:layout_marginEnd="11dp"
+                android:background="#D3F0E2"
+                android:src="@android:drawable/ic_menu_delete" />
+
+            <CheckBox
+                android:id="@+id/important"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/thumbnail"
+                android:layout_alignStart="@+id/btnDelete"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="☆" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#187D4E" />
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

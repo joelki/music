@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageButton
+        android:id="@+id/playlist"
+        android:layout_width="361dp"
+        android:layout_height="372dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Playlist" />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/browse"
+        android:layout_width="80dp"
+        android:layout_height="78dp"
+        android:layout_alignEnd="@+id/playlist"
+        android:layout_alignParentTop="true"
+        android:text="Search" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="355dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="19dp"
+        android:textSize="25dp"
+        android:text="Playlist" />
+
+    <Button
+        android:id="@+id/office"
+        android:layout_width="358dp"
+        android:layout_height="76dp"
+        android:layout_alignStart="@+id/playlist"
+        android:layout_below="@+id/search"
+        android:text="Play a random Office Clip"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+</RelativeLayout>

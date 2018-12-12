@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Music</string>
+
+    <string name="action_sort_by_url_string">Sort by Url</string>
+    <string name="action_sort_by_date_added">Sort by Date Added</string>
+    <string name="register"><u><b><i>Copyright</i></b></u></string>
+</resources>
