@@ -15,7 +15,7 @@ class YoutbePlayer : YouTubeBaseActivity() {
         var VIDEO_ID : String = ""
         var TITLE_ID: String = ""
         var URL_ID: String = ""
-        val YOUTUBE_API_KEY : String = "AIzaSyA4x6FRqW7xyM6aVhWVK2KNcyibJbJoviA"
+        val YOUTUBE_API_KEY : String = "" //enter a youtube api key here.
     }
     lateinit var youtubePlayerInit: YouTubePlayer.OnInitializedListener
 
