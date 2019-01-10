@@ -39,7 +39,7 @@ class defaultActivity : AppCompatActivity() {
         office.setOnClickListener{
             val intent = Intent(this, Main2ActivityAPI::class.java)
             intent.putExtra("theOffice", true)
-            intent.putExtra("officeVideoId", "https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCa90xqK2odw1KV5wHU9WRhg&maxResults=25&key=AIzaSyA4x6FRqW7xyM6aVhWVK2KNcyibJbJoviA")
+            intent.putExtra("officeVideoId", "https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCa90xqK2odw1KV5wHU9WRhg&maxResults=25&key= ")//enter youtube api key after key=
             startActivity(intent)
         }
     }
