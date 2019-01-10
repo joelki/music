@@ -23,7 +23,7 @@ class QueryUtils {
 
         fun fetchAirQualityData(requestUrl: String): ArrayList<Measurement>? {
 
-            val url: URL? = createUrl(BaseUrl  + requestUrl + "&key=AIzaSyA4x6FRqW7xyM6aVhWVK2KNcyibJbJoviA")
+            val url: URL? = createUrl(BaseUrl  + requestUrl + "&key= ") //enter youtube api key after &key= 
             var jsonResponse: String? = null
             try {
                 jsonResponse = makeHttpRequest(url)
