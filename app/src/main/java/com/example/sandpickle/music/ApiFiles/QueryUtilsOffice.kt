@@ -22,7 +22,7 @@ class QueryUtilsOffice {
 
         fun fetchAirQualityData(requestUrl: String): ArrayList<Measurement>? {
 
-            val url: URL? = createUrl("https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCa90xqK2odw1KV5wHU9WRhg&maxResults=45&key=AIzaSyA4x6FRqW7xyM6aVhWVK2KNcyibJbJoviA")
+            val url: URL? = createUrl("https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCa90xqK2odw1KV5wHU9WRhg&maxResults=45&key= ") //enter youtube api key
 
             var jsonResponse: String? = null
             try {
